@@ -24,4 +24,4 @@ jobs:
         run: npm install # Runs "npm install" to install dependencies listed in package.json
 
       - name: Run "Imperial Speeder Bike" test # Step to execute the specific test
-        run: npm test testes/veiculo30.spec.js # Runs the test located in "testes/veiculo-imperial-speeder.spec.js"
+        run: npm test testes/swapi.veiculo30.spec.js # Runs the test located in "testes/planeta-naboo.spec.js"
