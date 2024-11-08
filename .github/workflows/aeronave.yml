@@ -23,4 +23,4 @@ jobs:
         run: npm install # Runs "npm install" to install dependencies listed in package.json
 
       - name: Run "Death Star" test # Step to execute the specific test
-        run: npm test testes/swapi.aeronave.spec.js # Runs the test located in "testes/swapi.deathstar.spec.js"
+        run: npm test testes/swapi.aeronave9.spec.js # Runs the test located in "testes/swapi.deathstar.spec.js"
