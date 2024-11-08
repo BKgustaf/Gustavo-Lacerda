@@ -24,4 +24,4 @@ jobs:
         run: npm install # Runs "npm install" to install dependencies listed in package.json
 
       - name: Run "Planeta Naboo" test # Step to execute the specific test
-        run: npm test testes/planeta8.spec.js # Runs the test located in "testes/planeta-naboo.spec.js"
+        run: npm test testes/swapi.planeta8.spec.js # Runs the test located in "testes/planeta-naboo.spec.js"
