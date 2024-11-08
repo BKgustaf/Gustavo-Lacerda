@@ -24,4 +24,4 @@ jobs:
         run: npm install # Runs "npm install" to install dependencies listed in package.json
 
       - name: Run "Wicket Systri Warrick" test # Step to execute the specific test
-        run: npm test testes/pessoa30.spec.js # Runs the test located in "testes/wicket-systri-warrick.spec.js"
+        run: npm test testes/swapi.pessoa30.spec.js # Runs the test located in "testes/wicket-systri-warrick.spec.js"
