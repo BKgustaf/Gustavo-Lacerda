@@ -24,4 +24,4 @@ jobs:
         run: npm install # Runs "npm install" to install dependencies listed in package.json
 
       - name: Run "filme1" test # Step to execute the specific test
-        run: npm test testes/swapi.filme1.js # Runs the test located in "testes/filme1.js"
+        run: npm test testes/swapi.filme1.spec.js # Runs the test located in "testes/filme1.js"
